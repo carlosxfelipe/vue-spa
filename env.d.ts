@@ -1,7 +1,7 @@
 /// <reference types="vite/client" />
 
 declare module '*.vue' {
-  import { Component } from 'vue'
-  const component: Component
+  import { DefineComponent } from 'vue'
+  const component: DefineComponent<Record<string, unknown>, Record<string, unknown>, unknown>
   export default component
 }
