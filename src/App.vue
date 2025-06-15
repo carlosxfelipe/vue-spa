@@ -1,7 +1,9 @@
 <template>
-  <div><h1 class="text-blue-500 text-2xl font-bold">Bem-vindo ao Vue + Tailwind!</h1></div>
+  <HomePage />
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import HomePage from '@/modules/landing/pages/HomePage.vue'
+</script>
 
 <style scoped></style>
