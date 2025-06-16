@@ -7,14 +7,14 @@
         </a>
       </div>
       <nav class="ml-auto space-x-4 flex items-center h-10 sm:space-x-6">
-        <RouterLink to="/">Início</RouterLink>
+        <RouterLink :to="{ name: 'home' }">Início</RouterLink>
         <RouterLink to="/features">Diferenciais</RouterLink>
         <RouterLink to="/pricing">Preços</RouterLink>
         <RouterLink to="/contact">Contato</RouterLink>
       </nav>
     </header>
 
-    <main class="flex-1 flex items-center justify-center py-6">
+    <main class="flex-1 flex items-center justify-center">
       <RouterView />
     </main>
 

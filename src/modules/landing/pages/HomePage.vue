@@ -1,5 +1,10 @@
 <template>
-  <div><h1>Home Page</h1></div>
+  <div class="text-center">
+    <h1 class="text-4xl font-bold tracking-tighter sm:text-5xl">Bem-vindo ao nosso site</h1>
+    <p class="mx-auto max-w-[600px] text-gray-500 md:text-xl">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    </p>
+  </div>
 </template>
 
 <script setup lang="ts"></script>
