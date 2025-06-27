@@ -11,6 +11,7 @@
         <RouterLink to="/features">Diferenciais</RouterLink>
         <RouterLink to="/pricing">Preços</RouterLink>
         <RouterLink to="/contact">Contato</RouterLink>
+        <RouterLink to="/auth">Login</RouterLink>
       </nav>
     </header>
 
