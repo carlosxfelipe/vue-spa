@@ -1,12 +1,12 @@
 <template>
-  <h1 class="text-2xl font-semibold mb-4">Login</h1>
+  <h1 class="text-2xl font-semibold mb-4">Registro</h1>
   <form action="#" method="POST">
     <div class="mb-4">
-      <label for="username" class="block text-gray-600">Nome de Usuário</label>
+      <label for="name" class="block text-gray-600">Nome de Usuário</label>
       <input
         type="text"
-        id="username"
-        name="username"
+        id="name"
+        name="name"
         class="w-full border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:border-blue-500"
         autocomplete="off"
       />
@@ -32,10 +32,12 @@
       type="submit"
       class="bg-blue-500 hover:bg-blue-600 text-white font-semibold rounded-md py-2 px-4 w-full"
     >
-      Entrar
+      Registrar
     </button>
   </form>
   <div class="mt-6 text-blue-500 text-center">
-    <RouterLink :to="{ name: 'register' }" class="hover:underline">Cadastre-se aqui</RouterLink>
+    <RouterLink :to="{ name: 'login' }" class="hover:underline"
+      >Já tem uma conta? Entrar
+    </RouterLink>
   </div>
 </template>
